@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/sanbega/My_Unsplash/issues"
   },
-  "homepage": "https://github.com/sanbega/My_Unsplash#readme"
+  "homepage": "https://github.com/sanbega/My_Unsplash#readme",
+  "devDependencies": {
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.15"
+  }
 }
