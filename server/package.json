@@ -1,7 +1,7 @@
 {
   "name": "my_unsplash",
   "version": "1.0.0",
-  "description": "",
+  "description": "Server my_unsplash",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js"
@@ -10,14 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/sanbega/My_Unsplash.git"
   },
-  "author": "",
+  "author": "Sanbega",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sanbega/My_Unsplash/issues"
   },
   "homepage": "https://github.com/sanbega/My_Unsplash#readme",
   "devDependencies": {
-    "hbs": "^4.2.0",
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
   }
 }
